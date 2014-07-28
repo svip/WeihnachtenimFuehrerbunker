@@ -1,0 +1,48 @@
+@font-face {
+	font-family: "Fette Unz Fraktur";
+	src: url("./FetteClassicUNZFraktur.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-variant: normal;
+	font-stretch: normal;
+}
+body {
+	background-color: #28bf28;
+	background-image: url(jernkors.png), url(jernkors.png);
+	background-repeat: no-repeat;
+	background-position: top left, top right;
+	font-family: serif;
+}
+a {
+	color: #e7e7e7;
+}
+ul {
+	list-style: url(jernkors-small.png);
+}
+body > header {
+	font-size: 150%;
+}
+header {
+	color: #c40000;
+	font-family: "Fette Unz Fraktur";
+}
+article p:first-child:first-letter {
+	font-family: "Fette Unz Fraktur";
+	float: left;
+	font-size: 500%;
+	margin-top: -10px;
+	color: #c40000;
+}
+article {
+	text-align: justify;
+}
+#summary, body > header, nav {
+	text-align: center;
+}
+#summary {
+	font-size: 18pt;
+}
+article, #episodes, nav, #summary {
+	width: 600px;
+	margin: 0 auto;
+}
